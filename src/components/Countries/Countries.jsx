@@ -14,6 +14,7 @@ const Countries = () => {
 
     return (
         <div>
+            <h3>Press Ctrl+F to Search by Country Names</h3>
             <h3>Countries: {countries.length}</h3>
            <div className="country-container">
              {

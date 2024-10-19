@@ -6,7 +6,7 @@ const Country = ({country}) => {
             <h3>Name: {name.common}</h3>
             <img src={flags.png} alt="" />
         </div>
-    );
+    )
 };
 
 export default Country;
